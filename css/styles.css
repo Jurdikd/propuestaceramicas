@@ -280,6 +280,26 @@
     background:linear-gradient(to right, #64CCEE, #308DC2) !important; /* Color de fondo azul claro */
     padding: 2rem;
 }
+.btn-back-to-top {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 99;
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-color: #D8661F; /* Cambia el color según tu preferencia */
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-back-to-top:hover {
+  background-color: #e09a3b; /* Cambia el color de hover según tu preferencia */
+}
 /* Hacer la modal transparente */
 .modal-content {
     border: none; /* Sin bordes */
