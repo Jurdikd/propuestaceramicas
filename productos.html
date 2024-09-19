@@ -161,7 +161,7 @@
         </div>
       </div>
       <div class="container mt-4">
-        <div class="row">
+        <div class="row" id="imageContainer">
           <!-- Carousel 1 -->
           <div class="col-md-6 col-12 mb-4">
             <div
@@ -448,11 +448,37 @@
         </div>
       </div>
     </footer>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="imageModal"
+      tabindex="-1"
+      aria-labelledby="imageModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-orange" id="imageModalLabel"></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img id="modalImage" src="" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
     <button class="btn-back-to-top" title="Volver al inicio">
       <i class="fas fa-chevron-up"></i>
     </button>
     <script type="text/javascript" src="./js/popper.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./js/button-start.js"></script>
+    <script type="text/javascript" src="./js/modal-productos.js"></script>
   </body>
 </html>
