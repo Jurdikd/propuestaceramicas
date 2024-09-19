@@ -60,7 +60,7 @@
     border-radius: 0 0 var(--scroll-radius) var(--scroll-radius); /* Parte inferior redondeada */
   }
   body{
-    font-family: 'Bebas', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
  .header{
    background: #1F191A;
@@ -79,7 +79,6 @@
 /* Estilo para mantener los íconos alineados con el menú en pantallas grandes */
 .navbar-nav{
   font-size: 2em;
-  color: #D8661F; /* Color del texto */
   padding: 0;
   border-radius: 25px; /* Bordes redondeados */
 }
@@ -87,9 +86,15 @@
   border: none !important;
   background-color: #ffffff; /* Fondo blanco */
 }
+.navbar-nav .nav-link {
+  color: #D8661F;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
 .navbar-nav .nav-link:hover {
     background-color:  #D8661F; /* Cambio de color en hover */
-    
     color: #ffffff;
     transition: all 1.s;
 }
@@ -112,8 +117,18 @@
   width: 100px;
   height: 100px;
 }
+.content-page{
+  min-height: calc(70vh - 3.6em - 3.6em);
+}
 /*sections*/
-
+.text-home-title {
+  font-size: 4rem;
+  text-shadow: 1px 1px 0px white, -1px -1px 0px white, 1px -1px 0px white, -1px 1px 0px white;
+}
+.text-home-title-subtitle {
+  right: 6rem !important;
+  bottom:6rem !important;
+}
 .section-1{
     background: 
         url('../img/texturas/textura-marronpro.png') no-repeat center center / cover;
@@ -139,14 +154,10 @@
     margin: 0;
 }
 
+/* fonts */
 .font-montserrat{
     font-family: 'Montserrat', sans-serif !important;
 }
-.font-gabriola{
-    font-family: 'Gabriola', sans-serif !important;
-}
-
-/* fonts */
 
 
 /* transparencias*/
@@ -168,26 +179,7 @@
 .text-justify {
     text-align: justify;
   }
-  .text-underline {
-    text-decoration: underline;
-    text-decoration-color: #3C2415;
-  }
-/* font size*/
-.font-size-1{
-    font-size: 0.5em !important;
-}
-.font-size-2{
-    font-size: 2em !important;
-}
-.font-size-3{
-    font-size: 3em !important;
-}
-.font-size-4{
-    font-size: 4em !important;
-}
-.font-size-5{
-    font-size: 5em !important;
-}
+
 /* radios*/
 .radio-1{
     border-radius: 1em;
@@ -205,7 +197,10 @@
 .img-cover {
     object-fit: cover;
   }
- 
+.icon-service{
+  fill: #D8661F !important;
+  color: #D8661F !important;
+}
 
   /*cards*/
   .card-title-producto{
@@ -308,71 +303,27 @@
 /* medias querys*/
 
 /* Para pantallas extra pequeñas (menos de 576px) */
-@media (max-width: 575.98px) {
-    .iconos-navbar {
-        font-size: 1.5rem;
-        margin-left: 0rem;
-    }
-    .image-box {
-        height: 9.375em;
-      }
-      .img-map{
-        height: 338px;
-        object-fit: cover;
-        width: 346px;
-      }
-  }
+@media (max-width: 575.98px) {}
+   
   
   /* Para pantallas pequeñas (de 576px a 767.98px) */
-  @media (min-width: 576px) {
-    .iconos-navbar {
-        font-size: 2rem;
-        margin-left: 0.5rem;
-    }
-    .image-box {
-        height: 9.375em;
-      }
-      .img-map{
-        height: 338px;
-        object-fit: cover;
-        width: 346px;
-      }
-  }
+  @media (min-width: 576px) {}
+   
   
   /* Para pantallas medianas (de 768px a 991.98px) */
   @media (min-width: 768px) {
-    .iconos-navbar {
-        font-size: 2rem;
-        margin-left: 0.5rem;
+    /* fonts */
+    .fa-md-2x{
+      font-size: 2em;
     }
-    .image-box {
-        height: 9.375em;
-      }
-      .img-map{
-        width: 100%;
-        height: 100%; object-fit: cover;}
-    
   }
+   
   
   /* Para pantallas grandes (de 992px a 1199.98px) */
-  @media (min-width: 992px) {
-    .iconos-navbar {
-        font-size: 2rem;
-        margin-left: 2rem;
-    }
-   /*margenes*/
-    .m-star{
-        margin-right: 5rem !important;
-    }
-    .image-box {
-        height: 24.375em;
-    }
-  }
+  @media (min-width: 992px) {}
+   
   
   /* Para pantallas extra grandes (de 1200px en adelante) */
   @media (min-width: 1200px) {
    
   }
-
-
-  
