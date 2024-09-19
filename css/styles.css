@@ -290,6 +290,7 @@ body, html {
   width: 40px;
   height: 40px;
   background-color: #D8661F; /* Cambia el color según tu preferencia */
+  border-color: #fff;
   color: #fff;
   text-align: center;
   line-height: 40px;
