@@ -254,7 +254,28 @@
 .form-control {
   border-radius: 5px;
 }
+.carousel-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 0px rgb(0, 0, 0), -1px -1px 0px rgb(0, 0, 0), 1px -1px 0px rgb(0, 0, 0), -1px 1px 0px rgb(0, 0, 0);
+}
 
+.carousel-subtitle {
+  font-size: 1rem;
+  color: white;
+  text-shadow: 1px 1px 0px rgb(0, 0, 0), -1px -1px 0px rgb(0, 0, 0), 1px -1px 0px rgb(0, 0, 0), -1px 1px 0px rgb(0, 0, 0);
+}
+
+.carousel-caption {
+  bottom: 10px;
+}
+
+.carousel-control-prev .fa,
+.carousel-control-next .fa {
+  color: #D8661F;
+  font-size: 2.5rem;
+}
 .footer {
     background:linear-gradient(to right, #64CCEE, #308DC2) !important; /* Color de fondo azul claro */
     padding: 2rem;
@@ -289,6 +310,7 @@
   }
 
 /* medias querys*/
+
 
 /* Para pantallas extra pequeñas (menos de 576px) */
 @media (max-width: 575.98px) {
