@@ -129,29 +129,10 @@
   right: 6rem !important;
   bottom:6rem !important;
 }
-.section-1{
-    background: 
-        url('../img/texturas/textura-marronpro.png') no-repeat center center / cover;
-    /*height: 100vh;*/
-    margin: 0;
-}
-.section-2{
-    margin: 0;
-}
+
+
 .cursor-pointer{
     cursor: pointer;
-}
-.section-3{
-    background: 
-        url('../img/texturas/textura-azul.svg') no-repeat center center / cover;
-    /*height: 100vh;*/
-    margin: 0;
-}
-.section-4{
-    background: 
-        url('../img/texturas/textura-marronpro.png') no-repeat center center / cover;
-    /*height: 100vh;*/
-    margin: 0;
 }
 
 /* fonts */
@@ -169,12 +150,18 @@
 .text-green{
   color: #009045 !important;
 }
+.text-orange{
+  color: #D8661F !important;
+}
 /* colores de fondo*/
 .bg-orange{
  background-color: #D8661F;
 }
 .bg-brown{
     background: #1F191A !important;
+}
+.bg-gray{
+  background: #C5C5C5 !important;
 }
 .text-justify {
     text-align: justify;
@@ -188,6 +175,12 @@
 .min-vh-70{
     min-height: 70vh !important;
 }
+.img-fluid-80{
+    max-width: 80%;
+    height: auto;
+}
+
+
 /* interlineados*/
 .reduced-line-height {
     line-height: 0;
@@ -321,7 +314,12 @@
     .fa-md-2x{
       font-size: 2em;
     }
-    
+    .ps-9 {
+      padding-left: 9rem !important;
+    }
+    .pe-9 {
+      padding-right: 9rem !important;
+    }
     
   } @media (max-width: 768px) {
     
