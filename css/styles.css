@@ -302,34 +302,64 @@ body, html {
 .btn-back-to-top:hover {
   background-color: #e09a3b; /* Cambia el color de hover según tu preferencia */
 }
-/* Hacer la modal transparente */
+/* Estilos mejorados para el modal */
 .modal-content {
-    border: none; /* Sin bordes */
-  }
+  border: none; /* Sin bordes */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra suave */
+  background: linear-gradient(145deg, #f3f3f3, #ffffff); /* Fondo degradado */
+  padding: 20px; /* Espaciado interno */
+}
 
-  /* Centrar el título de la modal */
-  .modal-title {
-    text-align: center;
-    width: 100%;
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
+/* Centrar el título de la modal */
+.modal-title {
+  text-align: center;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333; /* Color oscuro para el título */
+}
 
-  /* Centrar la imagen en la modal */
-  .modal-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
+/* Cuerpo del modal */
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 
-  /* Estilo de la imagen */
-  .modal-body img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar la imagen */
-  }
+/* Estilo de la imagen */
+.modal-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Botón de compra con icono */
+.btn-buy {
+  background-color: #D8661F; /* Color de fondo */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px; /* Bordes redondeados */
+  border: none;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-buy:hover {
+  background-color: #e09a3b; /* Cambio de color en hover */
+}
+
+/* Icono de carrito de compras */
+.btn-buy .fa-shopping-cart {
+  font-size: 1.2rem;
+}
+
 
 /* medias querys*/
 
