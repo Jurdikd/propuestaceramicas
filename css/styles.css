@@ -303,11 +303,21 @@
 /* medias querys*/
 
 /* Para pantallas extra pequeñas (menos de 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+  .text-home-title-subtitle {
+    right: 2rem !important;
+    bottom: 0rem !important;
+}
+}
    
   
   /* Para pantallas pequeñas (de 576px a 767.98px) */
-  @media (min-width: 576px) {}
+  @media (min-width: 576px) {
+    .text-home-title-subtitle {
+      right: 2rem !important;
+      bottom: 0rem !important;
+  }
+  }
    
   
   /* Para pantallas medianas (de 768px a 991.98px) */
@@ -316,8 +326,16 @@
     .fa-md-2x{
       font-size: 2em;
     }
+    
+    
+  } @media (max-width: 768px) {
+    
+    
+    .text-home-title {
+      font-size: 2rem;
+    }
+    
   }
-   
   
   /* Para pantallas grandes (de 992px a 1199.98px) */
   @media (min-width: 992px) {}
