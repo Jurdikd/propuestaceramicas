@@ -379,6 +379,19 @@ body, html {
       right: 2rem !important;
       bottom: 0rem !important;
   }
+  .ps-9 {
+    padding-left: 2rem !important;
+  }
+  .pe-9 {
+    padding-right: 2rem !important;
+  }
+  
+} @media (max-width: 768px) {
+  
+  
+  .text-home-title {
+    font-size: 2rem;
+  }
   }
    
   
@@ -388,6 +401,12 @@ body, html {
     .fa-md-2x{
       font-size: 2em;
     }
+    
+    
+  }
+  
+  /* Para pantallas grandes (de 992px a 1199.98px) */
+  @media (min-width: 992px) {
     .ps-9 {
       padding-left: 9rem !important;
     }
@@ -401,11 +420,7 @@ body, html {
     .text-home-title {
       font-size: 2rem;
     }
-    
   }
-  
-  /* Para pantallas grandes (de 992px a 1199.98px) */
-  @media (min-width: 992px) {}
    
   
   /* Para pantallas extra grandes (de 1200px en adelante) */
